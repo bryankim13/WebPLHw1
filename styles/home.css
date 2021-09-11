@@ -1,11 +1,26 @@
 #intro{
-    min-height:60vh;
+    min-height:70vh;
     background-image:url(../images/main.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+#introCaption{
+    position: relative;
+    top:0vh;
+    justify-content: center;
+    text-align:center;
+}
+#introDesc{
+    position: relative;
+    bottom:10vh;
+    justify-content: center;
+    display:block;
+    text-align:center;
+    width:500px;
+}
+
 #menu{
     min-height:50vh;
 }
