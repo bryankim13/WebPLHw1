@@ -27,14 +27,17 @@ list-style-type: none;
     color: #f4f4dc;
     text-align: center;
     font-size: 155%;
+    position: relative;
+    top: 1.5vh;
     padding: 10px 30px;
     text-decoration: none;
+    font-family: 'Lato', sans-serif;
   }
   
-<<<<<<< HEAD
-
-=======
-  .foot {
+.foot {
     float: left;
-  }
->>>>>>> 753375e2b775d03aae6d805a2b63564e67f3ddc3
+}
+
+.intro {
+    float:left;
+}
