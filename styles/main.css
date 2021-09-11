@@ -26,17 +26,15 @@ list-style-type: none;
     color: #f4f4dc;
     text-align: center;
     font-size: 155%;
-    position: relative;
-    top: 1.5vh;
     padding: 10px 30px;
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
   }
   
-.foot {
-    float: left;
+h2{ 
+    font-size:225;
+    color: #9a1b1f
 }
-
-.intro {
-    float:left;
+p{
+    font-size:30;
+    color:#f4f4dc;
 }
