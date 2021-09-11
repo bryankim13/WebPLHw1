@@ -1,6 +1,11 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+  
 nav{
     background-color:  #c5b398;
-    width: max-width;
+    width: 100%;
     margin : 0px;
     box-sizing: border-box;
 }
@@ -25,3 +30,4 @@ list-style-type: none;
     text-decoration: none;
   }
   
+

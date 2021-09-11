@@ -1,0 +1,20 @@
+#intro{
+    min-height:60vh;
+    background-image:url(../images/main.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu{
+    min-height:50vh;
+}
+#catering{
+    min-height:50vh;
+}
+#about{
+    min-height:50vh;
+}
+#about{
+    min-height:50vh;
+}
