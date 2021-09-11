@@ -26,8 +26,15 @@ list-style-type: none;
     display: block;
     color: #f4f4dc;
     text-align: center;
+    font-size: 155%;
     padding: 10px 30px;
     text-decoration: none;
   }
   
+<<<<<<< HEAD
 
+=======
+  .foot {
+    float: left;
+  }
+>>>>>>> 753375e2b775d03aae6d805a2b63564e67f3ddc3
