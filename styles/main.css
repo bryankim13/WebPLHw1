@@ -1,6 +1,27 @@
-center {
-    
+nav{
+    background-color:  #c5b398;
+    width: max-width;
+    margin : 0px;
+    box-sizing: border-box;
 }
-center a {
+.logo {
+    float:left;
+}
+.center {
+list-style-type: none;
+  margin: 0;
+  padding: 10px,10px;
+  overflow: hidden;
+
+}
+.center li {
+    float: right;
+}
+.center li a {
     display: block;
-}
+    color: #f4f4dc;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+  }
+  
