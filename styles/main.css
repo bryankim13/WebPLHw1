@@ -2,7 +2,6 @@ html, body {
     margin: 0;
     padding: 0;
   }  
-  
 nav{
     background-color:  #c5b398;
     width: 100%;
@@ -31,10 +30,11 @@ list-style-type: none;
     text-decoration: none;
   }
   
-<<<<<<< HEAD
-
-=======
-  .foot {
-    float: left;
-  }
->>>>>>> 753375e2b775d03aae6d805a2b63564e67f3ddc3
+h2{ 
+    font-size:225;
+    color: #9a1b1f
+}
+p{
+    font-size:30;
+    color:#f4f4dc;
+}
