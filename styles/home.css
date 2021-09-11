@@ -22,14 +22,31 @@
 }
 
 #menu{
-    min-height:50vh;
+    min-height:60vh;
+    background-image:url(../images/Menu.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #catering{
-    min-height:50vh;
-}
+    min-height:60vh;
+    background-image:url(../images/cater.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
 #about{
     min-height:50vh;
 }
 #about{
     min-height:50vh;
 }
+.profile{
+display : flex;
+}
+img {
+    border-radius: 80%;
+    width: 50%;
+
+  }

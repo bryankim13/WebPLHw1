@@ -11,6 +11,10 @@ nav{
 .logo {
     float:left;
 }
+.intro a{
+  text-decoration: none;
+
+}
 .center {
 list-style-type: none;
   margin: 0;
@@ -33,6 +37,15 @@ list-style-type: none;
 h2{ 
     font-size:225;
     color: #9a1b1f
+}
+h4{
+    font-size:150;
+    color:aliceblue;
+}
+h4 a{
+  color:aliceblue;
+  text-decoration: none;
+
 }
 p{
     font-size:30;
