@@ -21,7 +21,11 @@ list-style-type: none;
     display: block;
     color: #f4f4dc;
     text-align: center;
+    font-size: 155%;
     padding: 10px 30px;
     text-decoration: none;
   }
   
+  .foot {
+    float: left;
+  }
