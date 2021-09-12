@@ -81,3 +81,15 @@ img {
     width:70%;
     margin:auto;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones and tablets: */
+    img{
+        width:150px;
+        height:150px;
+    }
+    .desc{
+        width:50%;
+        font-size:10;
+    }
+  } 
