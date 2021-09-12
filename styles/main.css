@@ -38,9 +38,14 @@ list-style-type: none;
   }
   
 h2{ 
+<<<<<<< HEAD
+    font-size:225px;
+    color: #9a1b1f
+=======
     font-size:225;
     color: #9a1b1f;
     display: inline-block;
+>>>>>>> e66f0fd73c63f9e88a35c615745359e34fa88b9d
 }
 h4{
     font-size:150;
