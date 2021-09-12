@@ -13,6 +13,7 @@
     text-align:center;
 }
 #introDesc{
+    margin:auto;
     position: relative;
     bottom:10vh;
     justify-content: center;
@@ -38,6 +39,12 @@
     background-size: cover;}
 #about{
     min-height:20vh;
+    justify-content:center;
+}
+.aboutDesc{
+    justify-self:center;
+    width:50%;
+    margin:auto;
 }
 
 .profPic{
