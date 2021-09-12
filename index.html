@@ -8,7 +8,7 @@
         <head>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=8.3%"> 
+            <meta name="viewport" content="width=device-width, initial-scale=1"> 
             <meta name="author" content="Paul Ok pso3td, Bryan Kim bjk3yf">
             <meta name="description" content="Webpage for the restaurant P&B's">
             <meta name="keywords" content="restaurant, food, menu, P&B's"> 
@@ -19,15 +19,17 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap" rel="stylesheet">
-
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <title>P&B's</title>   
         </head>  
 
         <body>
             <header>
-                <nav>
+                <nav class="navbar" id="myTopnav"> 
                     <ul class = "center">
                         <h1 class="intro"><a href="index.html">P&B's</a></h1>
+                        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i></a></li>
                         <li><a href="menu.html">Menu</a></li>
                         <li><a href="location.html">Locations</a></li>
                         <li><a href="reservations.html">Reservations</a></li>
@@ -107,5 +109,15 @@
                 <p style = "font-size : 19;color:rgb(185, 245, 225)"><small>Created by Paul Ok (<a href="mailto:pso3td@virginia.edu"><small>pso3td@virginia.edu</small></a>) and Bryan Kim (<a href="mailto:bjk3yf@virginia.edu"><small>bjk3yf@virginia.edu</small></a>)</small></p>
                 </div>
             </footer>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "navbar") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "navbar";
+                }
+            }
+        </script>
         </body>
     </html>
