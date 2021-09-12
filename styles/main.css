@@ -90,6 +90,26 @@ p{
   color:aquamarine;
 }
 
+* {
+  box-sizing: border-box;
+ }  
+[class*="col-"] {
+  width: 100%;
+}  
+@media only screen and (max-width: 768px) {
+  /* For mobile phones and tablets: */
+  [class*="col-"] {
+      width: 100%;
+  }
+} 
+@media only screen and (min-width: 768px) {
+} 
+
+@media only screen and (max-width: 600px) {
+  #fadeshow {
+      display: none;
+  }
+} 
 .back {
   z-index: 0;
 }
