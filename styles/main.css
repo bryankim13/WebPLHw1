@@ -72,3 +72,11 @@ p{
 }
 
 
+.foot{
+  margin:auto;
+  text-align:center;
+}
+.foot a{
+  text-decoration: none;
+  color:aquamarine;
+}
