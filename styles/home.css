@@ -19,7 +19,7 @@
     justify-content: center;
     display:block;
     text-align:center;
-    width:500px;
+    width:70%;
 }
 
 #menu{
@@ -69,8 +69,14 @@ img {
 
 .sectiondiv {
     text-align: center;
+    margin:auto;
 }
 
 .middle {
     text-align: center;
   }
+
+.desc {
+    width:70%;
+    margin:auto;
+}
