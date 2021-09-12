@@ -37,17 +37,19 @@
     background-repeat: no-repeat;
     background-size: cover;}
 #about{
-    min-height:50vh;
+    min-height:20vh;
 }
-#about{
-    min-height:50vh;
-}
+
 .profile{
-display : flex;
+    display : flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
 }
 img {
+    object-fit: cover;
     border-radius: 80%;
-    width: 50%;
+    width: 500px;
+    height:500px;
 
   }
 
