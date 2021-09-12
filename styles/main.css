@@ -8,8 +8,12 @@ body{
 nav{
     background-color:  #976114;
     width: 100%;
+    height: 70px;
     margin : 0px;
     box-sizing: border-box;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+  
 }
 .logo {
     float:left;
