@@ -107,8 +107,7 @@ p{
 }  
 
 @media screen and (max-width: 768px) {
-  .navbar li.a:not(:first-child) {display: none;}
-  .navbar .icon {
+  .navbar li.a.icon {
     float: right;
     display: block;
   }
@@ -127,17 +126,28 @@ p{
   p{
     font-size:15;
   }
-  .navbar.responsive {position: relative;}
-  .navbar.responsive a.icon {
+
+  .navbar {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .navbar #myLinks {
+    display: block;
+  }
+  
+  .navbar li {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .navbar .icon {
+    display: block;
     position: absolute;
     right: 0;
     top: 0;
-  }
-  .navbar.responsive a {
-    float: none;
-    display: flex;
-    text-align: left;
-    flex-direction: column;
   }
 } 
 @media only screen and (min-width: 768px) {
