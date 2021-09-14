@@ -2,13 +2,13 @@
     <!DOCTYPE html>
     <!--
         Sources used : https://www.w3schools.com/css/css3_images.asp 
-
+                       https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
     -->
     <html lang="en">
         <head>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=8.3%"> 
+            <meta name="viewport" content="width=device-width, initial-scale=1"> 
             <meta name="author" content="Paul Ok pso3td, Bryan Kim bjk3yf">
             <meta name="description" content="Webpage for the restaurant P&B's">
             <meta name="keywords" content="restaurant, food, menu, P&B's"> 
@@ -19,21 +19,25 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap" rel="stylesheet">
-
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <title>P&B's</title>   
         </head>  
 
         <body>
             <header>
-                <nav>
-                    <ul class = "center">
-                        <h1 class="intro"><a href="index.html">P&B's</a></h1>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="location.html">Locations</a></li>
-                        <li><a href="reservations.html">Reservations</a></li>
-                        <li><a href="catering.html">Catering</a></li>
-                        <li><a href="about.html">About</a></li>
-                    </ul>
+                <nav class="navbar" id="myTopnav"> 
+                        <div class = "logo">                        
+                            <h1 class="intro"><a href="index.html">P&B's</a></h1>
+                        </div>
+                        <div id="myLinks">
+                            <a href="menu.html">Menu</a>
+                            <a href="location.html">Locations</a>
+                            <a href="reservations.html">Reservations</a>
+                            <a href="catering.html">Catering</a>
+                            <a href="about.html">About</a>
+                        </div>
+                        <div><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i></a></div>
                 </nav>
                 <div class="catchphrase">
                 <h3>Live Life Nutz</h3>
@@ -71,13 +75,16 @@
                 <section id = catering>
                     <!-- insert image here -->
                     <div class="sectiondiv"><h4><a href="catering.html">Catering</a></h4>
-                    <p>Looking to order a meal for a large group?  You've come to the right place!  Visit our catering section to 
-                        learn more about our catering menu and options.  All your friends and family will love it!
-                    </p>
-                    <p>
-                        Peanut butter can be enjoyed by many people.  Shock all of your friends and family with our variety pack
-                        to try our top tier sandwiches.  Everyone who has one will enjoy.  Peanut butter for all!
-                    </p></div>
+                    <div class = "desc">
+                        <p>Looking to order a meal for a large group?  You've come to the right place!  Visit our catering section to 
+                            learn more about our catering menu and options.  All your friends and family will love it!
+                        </p>
+                        <p>
+                            Peanut butter can be enjoyed by many people.  Shock all of your friends and family with our variety pack
+                            to try our top tier sandwiches.  Everyone who has one will enjoy.  Peanut butter for all!
+                        </p>
+                    </div>
+                    </div>
                 </section>
 
                 <section id = about>
@@ -107,5 +114,20 @@
                 <p style = "font-size : 19;color:rgb(185, 245, 225)"><small>Created by Paul Ok (<a href="mailto:pso3td@virginia.edu"><small>pso3td@virginia.edu</small></a>) and Bryan Kim (<a href="mailto:bjk3yf@virginia.edu"><small>bjk3yf@virginia.edu</small></a>)</small></p>
                 </div>
             </footer>
+            <script>
+                function myFunction() {
+                  var y = document.getElementById("myTopnav");
+                  var x = document.getElementById("myLinks");
+                  if (y.style.height === "70px"){
+                      y.style.height = "280px";
+                      x.style.display = "block";
+
+                  } else {
+                    y.style.height = "70px";
+                    x.style.display = "none";
+
+                  }
+                }
+                </script>
         </body>
     </html>
