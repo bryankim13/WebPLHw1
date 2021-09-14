@@ -1,4 +1,9 @@
-html, body {
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+body {
     margin: 0;
     padding: 0;
   }  
@@ -51,7 +56,7 @@ list-style-type: none;
   }
   
 h2{ 
-    font-size:225;
+    font-size:150;
     color: #9a1b1f;
     display: inline-block;
     font-family: 'Cherry Cream Soda', cursive;
