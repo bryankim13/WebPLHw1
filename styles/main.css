@@ -136,7 +136,7 @@ p{
   }
 
   #myTopnav {
-    overflow: scroll;
+    overflow: hidden;
     position: absolute;
   }
   #myLinks {
