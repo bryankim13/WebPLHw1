@@ -34,12 +34,13 @@ body{
 
 }
 #myLinks {
-list-style-type: none;
+  list-style-type: none;
+  position: relative;
+  top:2vh;
   margin: 0;
   padding: 10px,10px;
   overflow: hidden;
   float:right;
-
 }
 
 #myLinks a {
@@ -135,16 +136,17 @@ p{
   }
 
   #myTopnav {
-    overflow: hidden;
-    position: relative;
+    overflow: scroll;
+    position: absolute;
   }
   #myLinks {
     display: none;
+    float: left;
   }
 
   #myLinks a {
     text-decoration: none;
-    display: block;
+    display: flex;
   }
   
   .navbar .icon {
