@@ -10,7 +10,7 @@ body {
 body{
   background-color:#c5beb4;
 }
-nav{
+#myTopnav{
     background-color:  #976114;
     width: 100%;
     height: 70px;
@@ -26,27 +26,24 @@ nav{
   margin-top:100px;
 }
 .logo {
+    padding:5px;
     float:left;
 }
 .intro a{
   text-decoration: none;
 
 }
-.center {
+#myLinks {
 list-style-type: none;
   margin: 0;
   padding: 10px,10px;
   overflow: hidden;
+  float:right;
 
 }
-.center li {
-    float: right;
-    position: relative;
-    top: -7vh;
-}
 
-.center li a {
-    display: block;
+#myLinks a {
+    display: in-line block;
     color: #f4f4dc;
     text-align: center;
     font-size: 155%;
@@ -54,7 +51,12 @@ list-style-type: none;
     padding: 10px 30px;
     text-decoration: none;
   }
-  
+.icon{
+  color:#f4f4dc;
+  font-size:40px;
+  padding: 10px 30px;
+}
+
 h2{ 
     font-size:150;
     color: #9a1b1f;
@@ -132,17 +134,15 @@ p{
     font-size:15;
   }
 
-  .navbar {
+  #myTopnav {
     overflow: hidden;
     position: relative;
   }
-  .navbar #myLinks {
+  #myLinks {
     display: none;
   }
-  
-  .navbar li {
-    color: white;
-    padding: 14px 16px;
+
+  #myLinks a {
     text-decoration: none;
     display: block;
   }
